@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechVibe - Product</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="nav-bar">
-        <div class="nav-container">
-            <h2 class="logo">TechVibe</h2>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="product.html">Product</a></li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href="cart.html" class="cart-link"> Cart(<span id="cart-count">0</span>)</a></li>
-            </ul>
-        </div>
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechVibe - Products</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    <main class="main-content">
-        <div class="container">
-            <h1 class="page-title">Our Products</h1>
-
-            <div class="filters">
-                <button class="filter-btn active" data category="all">all products</button>
-                <button class="filter-btn" data category="phones">Phones</button>
-                <button class="filter-btn" data category="laptops">Laotops</button>
-                <button class="filter-btn" data category="accessories">Accessories</button>
+    <body>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h2 class="logo">TechVibe</h2>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html" class="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
             </div>
+        </nav>
 
-            <div class="products-grid" id="products-grid">
+        <main class="main-content">
+            <div class="container">
+                <h1 class="page-title">Our Products</h1>
 
+                <!--Filter Buttons-->
+                <div class="filters">
+                    <button class="filter-btn active" data-category="all">All Products</button>
+                    <button class="filter-btn" data-category="phones">Phones</button>
+                    <button class="filter-btn" data-category="laptops">Laptops</button>
+                    <button class="filter-btn" data-category="accessories">Accessories</button>
+                </div>
+
+                <!-- Products here-->
+                <div class="products-grid" id="products-grid">
+                    <!--JavaScript will populate products here-->
+
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
 
+        <footer class="footer">
+            <p><b>&copy; 2025 TechVibe</b>. All rights reserved.</p>
+        </footer>
 
-    <footer class="footer">
-        <p><b></b>&copy; 2025 TechVibe</b>. All rights reseverd</p>
-    </footer>
-
-    <script src="script.js"></script>
-    
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>

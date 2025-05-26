@@ -7,19 +7,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #333
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-
 }
 
 .navbar {
     background-color: white;
-    box-shadow: 0 2px 5px rgb(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,7 +33,6 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 70px;
-
 }
 
 .logo {
@@ -57,7 +55,6 @@ body {
 
 .nav-menu a:hover {
     color: #3b82f6;
-    
 }
 
 .cart-link {
@@ -119,17 +116,18 @@ body {
     color: #1e293b;
 }
 
-.product-grid {
+.products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
 }
 
 .product-card {
     background: white;
     border: 10px;
-    box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     overflow: hidden;
-    transition: tranforms 0.3 ease;
+    transition: transform 0.3s ease;
 }
 
 .product-card:hover {
@@ -193,14 +191,15 @@ body {
 }
 
 .btn-secondary:hover {
-    color: #cbd5e1;
+    background-color: #cbd5e1;
 }
+
 
 .footer {
     background-color: #1e293b;
     color: white;
     text-align: center;
-    padding: 48px 0;
+    padding: 40px 0;
 }
 
 .main-content {
